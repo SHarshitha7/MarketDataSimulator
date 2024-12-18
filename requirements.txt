@@ -21,3 +21,5 @@ typing-extensions==4.8.0
 urllib3==2.2.3
 Werkzeug==2.0.0
 WTForms==3.0.1
+kafka-python
+six>=1.15.0

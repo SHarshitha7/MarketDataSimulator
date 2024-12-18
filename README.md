@@ -6,26 +6,21 @@ This project simulates stock market data and publishes it to a Kafka topic. It i
 ``````````````````````````````````````````````````````````````````````````````````
 Install Dependencies:
 
-bash
-Copy code
-pip install confluent-kafka
-Run the Producer:
 
-bash
-Copy code
+pip install confluent-kafka
+
+Run the Producer:
 python market_data_simulator.py
+
 Create Kafka Topic (if not already created):
 
-bash
-Copy code
 kafka-topics.sh --create --topic equity_market_data --bootstrap-server <your-kafka-bootstrap-server> --partitions 1 --replication-factor 1
 
 ```````````````````````````````````````````````````````````````````````````````````
 ## Example Data
 Sample simulated data published to Kafka:
 
-json
-Copy code
+
 {
   "ticker": "AAPL",
   "bid_price": 1200.56,

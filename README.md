@@ -2,6 +2,12 @@
 ## Overview
 This project simulates stock market data and publishes it to a Kafka topic. It includes market data such as stock tickers, bid price, ask price, last trade price, trading volume, and timestamps. The producer sends this simulated data every 2 seconds to the Kafka topic equity_market_data.
 
+In this project, you will find three different types of microservices.
+
+1. MarketDataSimulator
+2. DataConsumer
+3. DataReader
+
 ## Installation
 ``````````````````````````````````````````````````````````````````````````````````
 Install Dependencies:
